@@ -1,0 +1,151 @@
+{
+  "users": [
+    {
+      "id": "u_1",
+      "name": "Gaya Ji Admin",
+      "email": "admin@gayaji.com",
+      "passwordHash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+      "role": "ADMIN",
+      "phone": "6207342872",
+      "addresses": []
+    },
+    {
+      "id": "u_2",
+      "name": "Rohan Kumar (Delivery)",
+      "email": "delivery@gayaji.com",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "DELIVERY_BOY",
+      "phone": "8765432109",
+      "addresses": []
+    },
+    {
+      "id": "u_3",
+      "name": "Aman Singh",
+      "email": "customer@gayaji.com",
+      "passwordHash": "db9675276e102f354f9d45e0ff05e315579f1cfb776a91722880b91e92d77d70",
+      "role": "CUSTOMER",
+      "phone": "7654321098",
+      "addresses": [
+        {
+          "id": "addr_1",
+          "tag": "Home",
+          "name": "Aman Singh",
+          "phone": "7654321098",
+          "street": "12, GB Road, Near Gaya Junction",
+          "city": "Gaya",
+          "state": "Bihar",
+          "pincode": "823001"
+        }
+      ]
+    },
+    {
+      "id": "u_1780479072021",
+      "name": "harshit kumar",
+      "email": "hk620734@gmail.com",
+      "passwordHash": "d516490de64f0455288360dacbba4b86c268a4f427bad4187348dbf4b3c215e9",
+      "role": "CUSTOMER",
+      "phone": "6207342872",
+      "addresses": []
+    }
+  ],
+  "products": [
+    {
+      "id": "p_1",
+      "name": "Gaya Ji Smart Double Door Refrigerator (340L)",
+      "description": "Frost-free double door refrigerator with smart inverter compressor and convertible technology.",
+      "price": 24999,
+      "category": "Fridge",
+      "stock": 15,
+      "imageUrl": "https://images.unsplash.com/photo-1571175482276-5447b523d5ed?w=500&auto=format&fit=crop"
+    },
+    {
+      "id": "p_2",
+      "name": "Gaya Ji 1.5 Ton 5-Star Split Inverter AC",
+      "description": "High cooling performance, PM 2.5 filter, smart Wi-Fi enabled, energy efficient split air conditioner.",
+      "price": 36500,
+      "category": "AC",
+      "stock": 8,
+      "imageUrl": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=500&auto=format&fit=crop"
+    },
+    {
+      "id": "p_3",
+      "name": "Gaya Ji 90L Desert Air Cooler",
+      "description": "High air delivery, honeycomb cooling pads, auto swing louvers, and powerful air throw for summers.",
+      "price": 8900,
+      "category": "Cooler",
+      "stock": 20,
+      "imageUrl": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?w=500&auto=format&fit=crop"
+    },
+    {
+      "id": "p_4",
+      "name": "Gaya Ji Pro 5.1 Dolby Home Theater Soundbar",
+      "description": "500W cinematic soundbar with wireless subwoofer, Bluetooth, and HDMI ARC connections.",
+      "price": 12499,
+      "category": "Home Theater",
+      "stock": 12,
+      "imageUrl": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=500&auto=format&fit=crop"
+    },
+    {
+      "id": "p_5",
+      "name": "Gaya Ji 1200mm High Speed BLDC Ceiling Fan",
+      "description": "Super energy-efficient BLDC motor, remote control operated, silent operation with 5-star rating.",
+      "price": 2100,
+      "category": "Fan",
+      "stock": 45,
+      "imageUrl": "https://images.unsplash.com/photo-1618944847828-82e943c3dba7?w=500&auto=format&fit=crop"
+    },
+    {
+      "id": "p_6",
+      "name": "Gaya Ji 2000W Steam Iron Pro",
+      "description": "Ceramic soleplate for smooth glide, self-cleaning function, powerful steam burst.",
+      "price": 1499,
+      "category": "Iron",
+      "stock": 30,
+      "imageUrl": "https://images.unsplash.com/photo-1607006342460-5a8904079821?w=500&auto=format&fit=crop"
+    },
+    {
+      "id": "p_7",
+      "name": "Gaya Ji Smart 3-Jar Mixer Grinder (750W)",
+      "description": "Heavy duty copper motor, flow breaker jars, shockproof body, and rust-free stainless steel blades.",
+      "price": 3299,
+      "category": "Kitchen Appliances",
+      "stock": 25,
+      "imageUrl": "https://images.unsplash.com/photo-1578643463396-0997cb5328c1?w=500&auto=format&fit=crop"
+    },
+    {
+      "id": "p_8",
+      "name": "Gaya Ji Digital Oven Toaster Griller (OTG 30L)",
+      "description": "Convection heating mode, illuminated chamber, auto-shut off timer with temperature control.",
+      "price": 6499,
+      "category": "Kitchen Appliances",
+      "stock": 3,
+      "imageUrl": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=500&auto=format&fit=crop"
+    }
+  ],
+  "coupons": [
+    {
+      "code": "WELCOME10",
+      "discountPercent": 10,
+      "maxDiscount": 1000,
+      "expiryDate": "2026-12-31",
+      "isActive": true
+    },
+    {
+      "code": "FESTIVE20",
+      "discountPercent": 20,
+      "maxDiscount": 3000,
+      "expiryDate": "2026-12-31",
+      "isActive": true
+    },
+    {
+      "code": "GAYAJI50",
+      "discountPercent": 50,
+      "maxDiscount": 5000,
+      "expiryDate": "2026-12-31",
+      "isActive": true
+    }
+  ],
+  "orders": [],
+  "wishlists": {},
+  "carts": {}
+}
